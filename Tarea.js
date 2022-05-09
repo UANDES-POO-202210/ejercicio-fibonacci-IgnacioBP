@@ -1,14 +1,3 @@
-/*const fs =require('fs');
-var value;
-
-try {
-  const info=fs.readFileSync('./input.txt', 'utf8');
-  value=parseInt(info);
-  console.log(value);
-}catch (err) {
-  console.error(err);
-}*/
-
 function Fibonacci(a){
     if (a==1){
         return 1
